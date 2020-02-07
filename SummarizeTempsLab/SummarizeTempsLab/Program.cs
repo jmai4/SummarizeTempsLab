@@ -13,7 +13,10 @@ namespace SummarizeTempsLab
 
             if (File.Exists(tempfile))
             {
+                using (StreamReader sr = File.OpenText(tempfile);
+                {
 
+                }
             }
             else
             {
